@@ -12,6 +12,3 @@ def about_viwe(request):
 def contact_viwe(request):
     return render(request,'website/contact.html')
 
-def profile_viwe(request):
-    return render(request,'website/profile.html')
-

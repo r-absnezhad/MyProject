@@ -9,6 +9,4 @@ class ContactAdmin(admin.ModelAdmin):
     search_fields = ['name', 'email','message']
     list_display = ['name', 'email','created_date']
     
-
-
 admin.site.register(Contact, ContactAdmin)  

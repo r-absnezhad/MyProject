@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'website.apps.WebsiteConfig', #website application
     'accounts.apps.AccountsConfig' #accounts application
+    'simplemathcaptcha' #simple math captcha
 ]
 
 MIDDLEWARE = [

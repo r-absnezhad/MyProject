@@ -1,10 +1,10 @@
 from django import forms
 from website.models import Contact
-#from captcha.fields import CaptchaField
+from simplemathcaptcha.fields import MathCaptchaField
 
 
 class ContactForm(forms.ModelForm):
-    #captcha = CaptchaField()
+    captcha = MathCaptchaField()
     class Meta:
         model = Contact
         fields ='__all__'
